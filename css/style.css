@@ -42,6 +42,9 @@ h1 {
   text-transform: uppercase;
   text-align: center;
 }
+.logo {
+  text-decoration: none;
+}
 .firstpartlogo {
   color: var(--main-color-blue);
   font-size: 26px;
