@@ -1,33 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
       <nav>
         <ul>
           <li>
-            <a href="WebStudio">WebStudio</a>
+            <a href="WebStudio"
+              ><span class="firstpartlogo">Web</span
+              ><span class="thirdpartlogo">Studio</span></a
+            >
           </li>
-          <li><a href="Agencja">Agencja</a></li>
-          <li><a href="Portfolio">Portfolio</a></li>
-          <li><a href="Kontakt">Kontakt</a></li>
+          <li><a class="interactive" href="Agencja">Agencja</a></li>
+          <li><a class="interactive" href="Portfolio">Portfolio</a></li>
+          <li><a class="interactive" href="Kontakt">Kontakt</a></li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+48111111111">+48 111 111 111</a>
+      <a class="interactive" href="mailto:info@devstudio.com"
+        >info@devstudio.com</a
+      >
+      <a class="interactiveplus" href="tel:+48111111111">+48 111 111 111</a>
     </header>
     <main>
-      <section>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługę</button>
+      <section class="tittle">
+        <h1>efektywne rozwiązania dla waszego biznesu</h1>
+        <button type="button" class="buttonstudio">Zamów usługę</button>
       </section>
       <section>
-        <ul>
+        <ul class="loremipsum">
           <li>
             <h3>Lorem Ipsum</h3>
 
@@ -91,7 +103,7 @@
       </section>
       <section>
         <h2>Nasz zespół</h2>
-        <ul>
+        <ul class="ourteam">
           <li>
             <figure>
               <img
@@ -101,7 +113,10 @@
                 height="260"
               />
               <figcaption>
-                <strong>John Doe</strong><br />Product Designer
+                <span class="name">John Doe</span><br /><span
+                  class="proffession"
+                  >Product Designer</span
+                >
               </figcaption>
             </figure>
           </li>
@@ -114,7 +129,10 @@
                 height="260"
               />
               <figcaption>
-                <strong>John Doe</strong><br />Frontend Developer
+                <span class="name">John Doe</span><br /><span
+                  class="proffession"
+                  >Frontend Developer</span
+                >
               </figcaption>
             </figure>
           </li>
@@ -127,8 +145,10 @@
                 height="260"
               />
               <figcaption>
-                <strong>John Doe</strong><br />
-                Marketing
+                <span class="name">John Doe</span><br /><span
+                  class="proffession"
+                  >Marketing</span
+                >
               </figcaption>
             </figure>
           </li>
@@ -141,7 +161,10 @@
                 height="260"
               />
               <figcaption>
-                <strong>John Doe</strong><br />UI Designer
+                <span class="name">John Doe</span><br /><span
+                  class="proffession"
+                  >UI Designer</span
+                >
               </figcaption>
             </figure>
           </li>
@@ -149,11 +172,17 @@
       </section>
     </main>
     <footer>
-      <a href="WebStudio">WebStudio</a>
-      <address>
-        m. Warszawa, Aleje Jerozolimskie 21 <br />
-        info@example.com <br />
-        +48 111 111 111
+      <a href="WebStudio"
+        ><span class="firstpartlogo">Web</span
+        ><span class="secondpartlogo">Studio</span></a
+      >
+      <address class="address">
+        <span class="street"> m. Warszawa, Aleje Jerozolimskie 21 </span
+        ><br /><span class="email"> info@example.com </span><br /><span
+          class="telnr"
+        >
+          +48 111 111 111</span
+        >
       </address>
     </footer>
   </body>
