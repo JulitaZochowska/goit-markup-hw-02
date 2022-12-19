@@ -4,23 +4,11 @@ body {
 }
 :root {
   --main-color-grey: rgba(117, 117, 117, 1);
-}
-:root {
   --main-color-blue: rgba(33, 150, 243, 1);
-}
-:root {
   --main-color-white: rgba(255, 255, 255, 1);
-}
-:root {
   --main-color-white-plus: rgba(255, 255, 255, 0.6);
-}
-:root {
   --secondary--black: rgba(0, 0, 0, 1);
-}
-:root {
   --main-color-background: rgba(47, 48, 58, 1);
-}
-:root {
   --main-color-button: rgba(245, 244, 250, 1);
 }
 footer {
@@ -103,9 +91,6 @@ h2 {
 }
 .proffession {
   color: var(--main-color-grey);
-}
-.street {
-  color: var(--main-color-white);
 }
 .email,
 .telnr {
