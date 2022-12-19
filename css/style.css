@@ -1,6 +1,7 @@
 body {
   color: rgba(33, 33, 33, 1);
   font-family: "Roboto", sans-serif;
+  margin: 0;
 }
 :root {
   --main-color-grey: rgba(117, 117, 117, 1);
@@ -95,6 +96,8 @@ h2 {
 .email,
 .telnr {
   color: var(--main-color-white-plus);
+  font-size: 14px;
+  line-height: 1.71;
 }
 .buttonstudio {
   background-color: var(--main-color-button);
